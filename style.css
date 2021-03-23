@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(9, 15, 107);
+  box-sizing: border-box;
+}
+#title {
+  font-family: "Teko", sans-serif;
+  margin: 2vw;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.container {
+  background-color: rgb(220, 223, 224);
+
+  height: 45vw;
+  width: 100vw;
+}
+#img-div {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+#img-caption {
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+  text-align: center;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+}
+.text {
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+}
+.text2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 2.5vw;
+  font-family: "Hind", sans-serif;
+}
+#tribute-info {
+  height: 75vw;
+  background-color: rgb(220, 223, 224);
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+
+  font-family: "Poppins", sans-serif;
+}
+ol {
+  list-style: square outside none;
+}
+
+#tribute-link,
+a {
+  text-align: center;
+}
+.center {
+  position: absolute;
+  left: 15em;
+}
